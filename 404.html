@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Voltaris - Redirecting...</title>
+  <script type="text/javascript">
+    // Single Page App routing for GitHub Pages
+    // Based on https://github.com/rafgraph/spa-github-pages
+    (function() {
+      // This script takes the current URL and converts the path and query
+      // string into a single hash segment to be used with client-side routing
+      var pathSegmentsToKeep = 1; // Keep "/voltaris" in the URL
+      
+      // Get the current URL path excluding the domain
+      var l = window.location;
+      var newUrl = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '');
+      
+      // Extract the base path based on pathSegmentsToKeep
+      var basePath = l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/');
+      newUrl += basePath;
+      
+      // Convert the rest of the path to a hash parameter
+      var pathToRedirect = l.pathname.slice(basePath.length);
+      
+      // Add the hash and existing query params (if any)
+      newUrl += '/#' + pathToRedirect + (l.search || '');
+      
+      // Redirect to the new URL
+      window.location.replace(newUrl);
+    })();
+  </script>
+</head>
+<body>
+  <h1>Redirecting...</h1>
+  <p>If you are not automatically redirected, <a id="redirect-link" href="/">click here</a>.</p>
+  <script>
+    document.getElementById('redirect-link').href = window.location.pathname;
+  </script>
+</body>
+</html>
