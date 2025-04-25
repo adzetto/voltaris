@@ -16,7 +16,7 @@
     "main.31743c5a.css": "/voltaris/static/css/main.31743c5a.b161dea0.css",
     "main.31743c5a.js": "/voltaris/static/js/main.31743c5a.2f79a15c.js",
     "main.84781932.css": "/voltaris/static/css/main.84781932.f95f7160.css",
-    "main.84781932.js": "/voltaris/static/js/main.84781932.ec02a7af.js",
+    "main.84781932.js": "/voltaris/static/js/main.84781932.7869a484.js",
     "vendor.threejs.51475a68.js": "/voltaris/static/js/vendor.threejs.51475a68.cbbf264e.js",
     "vendor.threejs.da662f0b.js": "/voltaris/static/js/vendor.threejs.da662f0b.fe92a1d2.js",
     "index.html": "/voltaris/index.html",
@@ -36,7 +36,7 @@
     "main.31743c5a.b161dea0.css.map": "/voltaris/static/css/main.31743c5a.b161dea0.css.map",
     "main.31743c5a.2f79a15c.js.map": "/voltaris/static/js/main.31743c5a.2f79a15c.js.map",
     "main.84781932.f95f7160.css.map": "/voltaris/static/css/main.84781932.f95f7160.css.map",
-    "main.84781932.ec02a7af.js.map": "/voltaris/static/js/main.84781932.ec02a7af.js.map",
+    "main.84781932.7869a484.js.map": "/voltaris/static/js/main.84781932.7869a484.js.map",
     "vendor.threejs.51475a68.cbbf264e.js.map": "/voltaris/static/js/vendor.threejs.51475a68.cbbf264e.js.map",
     "vendor.threejs.da662f0b.fe92a1d2.js.map": "/voltaris/static/js/vendor.threejs.da662f0b.fe92a1d2.js.map"
   },
@@ -58,7 +58,7 @@
     "static/css/main.31743c5a.b161dea0.css",
     "static/js/main.31743c5a.2f79a15c.js",
     "static/css/main.84781932.f95f7160.css",
-    "static/js/main.84781932.ec02a7af.js",
+    "static/js/main.84781932.7869a484.js",
     "static/js/main.ba1e3284.db469382.js"
   ]
 }
